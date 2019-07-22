@@ -62,6 +62,8 @@
   <ItemGroup>
     <Compile Include="Assets\Controller.cs" />
     <Compile Include="Assets\MovePlayer.cs" />
+    <Compile Include="Assets\Obstacles.cs" />
+    <Compile Include="Assets\Raycast.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />

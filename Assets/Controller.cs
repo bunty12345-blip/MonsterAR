@@ -35,7 +35,22 @@ public class Controller : MonoBehaviour
         }
         else
         {
-            anim.Play("Idle");
+            if (anim.isPlaying)
+            {
+                anim.PlayQueued("Idle");
+            }
+            else
+            {
+                anim.Play("Idle");
+            }
+            
         }
     }
+
+    public void attack()
+    {
+        anim.Play("Attack");
+    }
+
+
 }
